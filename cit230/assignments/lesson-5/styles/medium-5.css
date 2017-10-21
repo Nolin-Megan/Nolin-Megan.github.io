@@ -1,5 +1,11 @@
 @media only screen and (min-width: 37.5em) {
     /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+    
+    header img {
+        width: 100px;
+        height: 90px;
+    }
+    
     nav button {
         display: none;
     }
@@ -7,7 +13,7 @@
     li {
         display: inline;
     }
-    
+ 
     .current {
         float: left;
         margin-left: 100px;
@@ -17,6 +23,7 @@
     #sunny {
         font-size: 20px;
     }
+  
     
     section.forecast {
         display: inline;

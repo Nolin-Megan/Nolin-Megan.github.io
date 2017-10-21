@@ -1,0 +1,176 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+    font-size: 16px;
+    margin: auto;
+    width: 60%;
+    font-family: "goudy old style", serif;
+    /* Declare the base font-family - from google font api or other */
+}
+
+header,
+nav,
+main,
+footer {
+    /* the comma means apply the following CSS declarations to all of the listed elements */
+    /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+    max-width: 100%;
+}
+
+header {
+    background-color: #00043c;
+    max-width: 700px;
+}
+
+header h1 {
+    text-align: center;
+    color: #c0c0c0;
+    font-family: 'Cinzel', serif;
+}
+
+header img {
+    display: block;
+    margin: auto;
+    padding: .5rem;
+    width: 100px;
+    height: 90px;
+}
+
+header .subheading {
+    padding: 1rem;
+    text-align: center;
+    color: #c0c0c0;
+}
+
+
+/*
+nav {
+    list-style: none;
+}
+*/
+
+
+nav button {
+    display: block;
+    float: right;
+    margin: .5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    
+}c
+
+.navigation { 
+    list-style: none; 
+    padding-left: 0; 
+}
+.navigation li { 
+    display: none; 
+}
+
+
+/*
+nav ul {
+   display: none;
+}
+*/
+/*
+.navigation.responsive {
+        position: relative;
+    }
+    .navigation.responsive li {
+        display: block;
+        width: 100%;
+        background-color: #999999;
+        margin: 2px 0;
+    }
+    .navigation.responsive li a {
+        padding: 1rem;
+        text-align: center;
+        display: block;
+        text-decoration: none;
+    }
+    .navigation.responsive li a:hover {
+        background-color: #ddd;
+    }
+}
+*/
+
+
+nav ul li {
+    
+}
+
+nav ul li a {
+    color: #002512;
+}
+
+nav ul li.active a {
+    color: #002736;
+}
+
+nav ul li a:hover {
+    color: #01658c;
+}
+
+
+main {
+    
+}
+
+main h2 {
+    text-align: center;
+}
+
+main figure {
+    margin: 0 0 .2rem 2%;
+    width: 96%;
+}
+
+main figure img {
+    width: 100%;
+}
+
+h3 {
+    text-align: center;
+}
+section {
+    text-align: center;
+}
+
+.conditions {
+    text-align: center;
+}
+
+.forecast {
+    display: none;
+}
+
+article p.town-article img {
+    width: 50%;
+    float: right;  
+    margin: 0 0 0 2%;
+}
+
+footer {
+    background-color: #00043c;
+    color: #c0c0c0;
+}
+
+footer aside {}
+
+footer>p {
+
+}
+
+
+/* This structure refers to p elements that are direct children of the footer element */
+
+
+/* Other Class Selectors */
