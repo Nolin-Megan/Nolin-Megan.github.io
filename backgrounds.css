@@ -1,0 +1,18 @@
+html {
+    background: url(background3.jpg) no-repeat fixed , url(background1.jpg) center fixed no-repeat;
+    background-size: contain;
+}
+
+
+
+
+
+h1 {
+   text-align: center;
+    color: #8c8c94;
+}
+
+p {
+    color: #8c8c94;
+    text-align: center;
+}
