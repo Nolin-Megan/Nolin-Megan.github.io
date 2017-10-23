@@ -32,15 +32,10 @@
     .navigation.responsive li a:hover {
         background-color: #ddd;
     }
-
-
-li {
-    display: inline;
-}
-
-figure img {
-    width: 100%;
-}
-
-
+    li {
+        display: inline;
+    }
+    figure img {
+        width: 100%;
+    }
 }

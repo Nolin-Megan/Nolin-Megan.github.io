@@ -56,22 +56,21 @@ nav {
 }
 */
 
-
 nav button {
     display: block;
     float: right;
     margin: .5em;
     padding-left: 2em;
     padding-right: 2em;
-    
-}c
-
-.navigation { 
-    list-style: none; 
-    padding-left: 0; 
 }
-.navigation li { 
-    display: none; 
+
+.navigation {
+    list-style: none;
+    padding-left: 0;
+}
+
+.navigation li {
+    display: none;
 }
 
 
@@ -82,93 +81,74 @@ nav ul {
 */
 
 .navigation.responsive {
-        position: relative;
-    }
-    .navigation.responsive li {
-        display: block;
-        width: 100%;
-        background-color: #999999;
-        margin: 2px 0;
-    }
-    .navigation.responsive li a {
-        padding: 1rem;
-        text-align: center;
-        display: block;
-        text-decoration: none;
-    }
-    .navigation.responsive li a:hover {
-        background-color: #ddd;
-    }
+    position: relative;
 }
 
-nav ul li {
-    
+.navigation.responsive li {
+    display: block;
+    width: 100%;
+    background-color: #999999;
+    margin: 2px 0;
 }
 
+.navigation.responsive li a {
+    padding: 1rem;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+
+.navigation.responsive li a:hover {
+    background-color: #ddd;
+}
+
+
+
+nav ul li {}
 nav ul li a {
     color: #002512;
 }
-
 nav ul li.active a {
     color: #002736;
 }
-
 nav ul li a:hover {
     color: #01658c;
 }
-
-
-main {
-    
-}
-
+main {}
 main h2 {
     text-align: center;
 }
-
 main figure {
     margin: 0 0 .2rem 2%;
     width: 96%;
 }
-
 main figure img {
     width: 100%;
 }
-
 h3 {
     text-align: center;
 }
 section {
     text-align: center;
 }
-
 .conditions {
     text-align: center;
 }
-
 .forecast {
     display: none;
 }
-
 article p.town-article img {
     width: 50%;
-    float: right;  
+    float: right;
     margin: 0 0 0 2%;
 }
-
 footer {
     background-color: #00043c;
     color: #c0c0c0;
 }
-
 footer aside {}
-
-footer>p {
-
-}
-
+footer>p {}
 
 /* This structure refers to p elements that are direct children of the footer element */
-
 
 /* Other Class Selectors */
