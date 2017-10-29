@@ -49,13 +49,6 @@ header .subheading {
     color: #c0c0c0;
 }
 
-
-/*
-nav {
-    list-style: none;
-}
-*/
-
 nav button {
     display: block;
     margin: .5em;
@@ -71,13 +64,6 @@ nav button {
 .navigation li {
     display: none;
 }
-
-
-/*
-nav ul {
-   display: none;
-}
-*/
 
 .navigation.responsive {
     position: relative;
@@ -101,15 +87,14 @@ nav ul {
     background-color: #ddd;
 }
 
-
-
-nav ul li {}
 nav ul li a {
     color: #002512;
 }
+
 nav ul li.active a {
     color: #002736;
 }
+
 nav ul li a:hover {
     color: #01658c;
 }
@@ -117,22 +102,28 @@ nav ul li a:hover {
 main h2 {
     text-align: center;
 }
+
 main figure {
     margin: 0 0 .2rem 2%;
     width: 96%;
 }
+
 main figure img {
     width: 100%;
 }
+
 h3 {
     text-align: center;
 }
+
 section {
     text-align: center;
 }
+
 .conditions {
     text-align: center;
 }
+
 .forecast {
     display: none;
 }
@@ -142,8 +133,8 @@ section {
     display: flex;
     flex-wrap: wrap-reverse;
     flex-direction: column;
-    
 }
+
 article p.town-article img {
     width: 50%;
     border: solid;
@@ -154,9 +145,22 @@ footer {
     background-color: #00043c;
     color: #c0c0c0;
 }
+
 footer aside {}
+
 footer>p {}
 
-/* This structure refers to p elements that are direct children of the footer element */
 
-/* Other Class Selectors */
+/*Gallery CSS*/
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 50px;
+    margin-bottom: 20px;
+}
+
+div:hover {
+    box-shadow: 5px 5px 5px;
+}

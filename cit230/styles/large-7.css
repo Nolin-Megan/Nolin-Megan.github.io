@@ -3,8 +3,8 @@
     article p.town-article img {
         width: 29.333%;
     }
-    .forecast {
-        margin: 10px;
+    table {
+        margin-left: 150px
     }
     header img {
         width: 120px;
@@ -24,8 +24,35 @@
     .navigation li a:hover {
         background-color: #ddd;
     }
-
     figure img {
-        width: 100%;
+        margin-left: -20px;
+    }
+    .top {
+        width: 40%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 30%;
+    }
+    #summary {
+        order: 1;
+        margin-left: 60px
+    }
+    .current {
+        order: 3;
+    }
+    .highlow {
+        order: 2;
+        height: 90px;
+        margin: 75px 0 -90px -50px;
+    }
+    .conditions {
+        order: 4;
+        height: 90px;
+        margin: 85px 0 0 20px;
+    }
+    
+    .windchill {
+        order: 5;
+        margin-left: 150px;
     }
 }
