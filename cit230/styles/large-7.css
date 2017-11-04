@@ -53,6 +53,6 @@
     
     .windchill {
         order: 5;
-        margin-left: 150px;
+        margin: -20px 0 0 120px;
     }
 }
