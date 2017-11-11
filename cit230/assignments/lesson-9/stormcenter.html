@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head w3-include-html="/cit230/assignments/lesson-8/modules/head.html">
+
+    <title>Storm Center</title>
+</head>
+
+<body>
+    <header w3-include-html="/cit230/assignments/lesson-8/modules/header.html">
+    </header>
+
+    <nav w3-include-html="/cit230/assignments/lesson-8/modules/nav.html">
+    </nav>
+    <main>
+       <h2>Storm Center</h2>
+       <h3>Contact us</h3>
+        <form>
+            Full Name:<br>
+            <input type="text" name="name" pattern="[A-Za-z ]{5}" required><br><br> 
+            Email:<br>
+            <input type="email" name="email" placeholder="example@email.com"><br><br> 
+            Phone Number:<br>
+            <input type="tel" name="phone" required><br><br> 
+            Zip Code:<br>
+            <input type="number" name="zip" required><br><br>
+            Storm Date:<br>
+            <input type="date" name="date"><br><br>
+            Storm Type:<br>
+            <input list="storms" name="storms">
+            <datalist id="storms">
+            <option value="Flash flood">
+            <option value="Hurricane">
+            <option value="Hail">
+            <option value="Tornado">
+            <option value="Thunderstorm">
+            </datalist> <br><br>
+            Storm Severity (1-10):<br>
+            <input type="range" id="severity" min="1" max="10" step="1" oninput="adjustSeverity(this.value)" onchange="adjustSeverity(this.value)">
+		    <span id="severityvalue">5</span><br> 
+            Storm Region:<br>
+            <select name="region">
+                <option value="selectRegion" disabled>Select Region...</option>
+                <option value="franklin">Franklin</option>
+                <option value="greenville">Greenville</option>
+                <option value="springfield">Springfield</option>
+            </select><br><br> 
+            Are you in danger?<br>
+            <input type="radio" name="danger" value="yes"> Yes<br>
+            <input type="radio" name="danger" value="no"> No<br>
+            <input type="radio" name="danger" value="maybe"> Maybe<br><br> Additional information or comments:<br>
+            <textarea name="comments" rows="7" cols="40"> </textarea><br><br>
+            <input type="submit" name="submit">
+            <input name="redirect" type="hidden" value="thanks.html">
+        </form>
+    </main>
+    <footer w3-include-html="/cit230/assignments/lesson-8/modules/footer.html">
+    </footer>
+    
+    <script src="scripts/severity.js" type="text/javascript"></script>
+    <script src="/cit230/assignments/lesson-8/scripts/w3.js"></script>
+    <script src="/cit230/assignments/lesson-8/scripts/modularize.js"></script>
+    <script src="/cit230/JS/hamburger.js"></script>
+    <script src="/cit230/JS/currentdate.js" type="text/javascript"></script>
+</body>
+</html>
+<!--<meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="">-->

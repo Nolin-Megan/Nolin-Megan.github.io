@@ -1,0 +1,43 @@
+@media only screen and (min-width: 37.5em) {
+    /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+    header img {
+        width: 100px;
+        height: 90px;
+    }
+    nav button {
+        display: none;
+    }
+    .navigation li {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        text-align: center;
+        width: 100%;
+        background-color: #999;
+        margin: 5px 0;
+        padding: .7rem;
+    }
+    .navigation li a {
+        text-align: center;
+        text-decoration: none;
+    }
+    .navigation li a:hover {
+        background-color: #ddd;
+    }
+    figure img {
+        width: 100%;
+    }
+    .current {}
+    #sunny {
+        font-size: 20px;
+    }
+    section.forecast {
+        display: inline;
+        margin: 10px;
+    }
+    /* show the 10-day forecast with the medium view and up */
+    article p.town-article img {
+        width: 62.666%;
+    }
+    /* responsive images */
+}
