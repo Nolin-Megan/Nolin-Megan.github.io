@@ -1,0 +1,58 @@
+@media only screen and (min-width: 64em) {
+    /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
+    article p.town-article img {
+        width: 29.333%;
+    }
+    table {
+        margin-left: 150px
+    }
+    header img {
+        width: 120px;
+        height: 100px;
+    }
+    nav {
+        text-align: center;
+    }
+    .navigation li {
+        display: inline;
+    }
+    .navigation li a {
+        padding: .5rem;
+        text-align: center;
+        text-decoration: none;
+    }
+    .navigation li a:hover {
+        background-color: #ddd;
+    }
+    figure img {
+        margin-left: -20px;
+    }
+    .top {
+        width: 40%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 30%;
+    }
+    #summary {
+        order: 1;
+        margin-left: 60px
+    }
+    .current {
+        order: 3;
+    }
+    .highlow {
+        order: 2;
+        height: 90px;
+        margin: 75px 0 -90px -50px;
+    }
+    .conditions {
+        order: 4;
+        height: 90px;
+        margin: 85px 0 0 20px;
+    }
+    
+    .windchill {
+        order: 5;
+        margin: -20px 0 0 120px;
+    }
+}

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en-us">
+
+<head w3-include-html="modules/head.html">
+    <title>Springfield City</title>
+</head>
+
+<body>
+
+    <header w3-include-html="modules/header.html">
+    </header>
+
+    <nav w3-include-html="/cit230/assignments/lesson-10/modules/nav.html">
+
+    </nav>
+
+    <main>
+        <h2>The City of Springfield</h2>
+        <figure>
+            <img src="img/optimized-franklin-original.jpg" alt="scene" sizes="100vw" srcset="img/small-franklin300.jpg 300w, img/medium-frank500.jpg 500w, img/large-frank1200.png 1200w">
+        </figure>
+        <section class="top">
+            <h3 id="summary">Weather Summary</h3>
+            <div class="current">
+                <p id="sunny">Sunny</p>
+                <picture>
+                    <img src="img/sunny.png" alt="Sun" width="95" height="95">
+                </picture>
+            </div>
+            <div class="highlow">
+                <p>High: 72 &deg;F</p>
+                <p>Low: 45 &deg;F</p>
+            </div>
+
+            <div class="conditions">
+                <p>Precipitation: 30%</p>
+                <p>Wind Speed: 15 mph SW</p>
+            </div>
+            <div class="windchill">
+                <p>Windchill: <span id="output"><script src="scripts/windchill.js" type="text/javascript"></script></span> &deg;F</p>
+            </div>
+        </section>
+
+        <section class="forecast">
+            <h3>10 Day Forecast</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day 1</th>
+                        <th>Day 2</th>
+                        <th>Day 3</th>
+                        <th>Day 4</th>
+                        <th>Day 5</th>
+                        <th>Day 6</th>
+                        <th>Day 7</th>
+                        <th>Day 8</th>
+                        <th>Day 9</th>
+                        <th>Day 10</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>71&deg;F</td>
+                        <td>68&deg;F</td>
+                        <td>68&deg;F</td>
+                        <td>66&deg;F</td>
+                        <td>60&deg;F</td>
+                        <td>61&deg;F</td>
+                        <td>61&deg;F</td>
+                        <td>65&deg;F</td>
+                        <td>70&deg;F</td>
+                        <td>75&deg;F</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <article>
+            <h3>Springfield Breaks Record</h3>
+            <p class="town-article">
+                <img src="img/articleimg.jpg" alt="Roadway"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue.
+            </p>
+        </article>
+
+    </main>
+
+    <footer w3-include-html="modules/footer.html">
+    </footer>
+    <script src="scripts/severity.js" type="text/javascript"></script>
+    <script src="scripts/w3.js"></script>
+    <script src="scripts/modularize.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js" type="text/javascript"></script>
+</body>
+
+</html>
