@@ -6,7 +6,7 @@
     margin-bottom: 20px;
 }
 
-figure div:hover {
+.gallery:hover {
     box-shadow: 5px 5px 5px;
 }
 
