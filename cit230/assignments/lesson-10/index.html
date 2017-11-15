@@ -1,58 +1,41 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-us">
-
 <head w3-include-html="modules/head.html">
-    <title>Weather You Want It or Not</title>
+   
+   <title>Weather You Want It or Not</title>
 </head>
 
 <body>
-
     <header w3-include-html="modules/header.html">
     </header>
 
     <nav w3-include-html="modules/nav.html">
-
     </nav>
-
     <main>
-        <h2></h2>
-        <figure>
-            <img src="img/large-index1200.jpg" alt="scene" sizes="100vw" srcset="img/small-index300.jpg 300w, img/medium-index500.jpg 500w, img/large-index1200.jpg 1200w">
-        </figure>
-        <section class="top">
-            <h2 id="summary">View Weather Reports</h2>
-            <div class="current">
-                <img src="img/medium-frank500.jpg" alt="franklin">
+        <h2>View Weather Reports</h2>
+        <figure class="gallery">
+            <div><a href="franklin.html"><img src="img/small-franklin300.jpg" alt="franklin">
                 <p>Franklin</p>
-            </div>
-            <div class="highlow">
-                <img src="img/medium-greenville500.jpg" alt="greenville">
+                </a></div>
+            <div><a href="greenville.html"><img src="img/small-greenville300.jpg" alt="greenville">
                 <p>Greenville</p>
-            </div>
-
-            <div class="conditions">
-                <img src="img/medium-springfield500.jpg" alt="springfield">
+                </a></div>
+            <div><a href="springfield.html"><img src="img/small-springfield300.jpg" alt="springfield">
                 <p>Springfield</p>
-            </div>
-            <div class="windchill">
-                <img src="img/optimized-gallery.jpg" alt="gallery">
-                <p>Gallery</p>
-            </div>
-            <div>
-                <img src="img/optimized-stormcenter.jpg" alt="stormcenter">
+                </a></div>
+            <div><a href="stormcenter.html"><img src="img/stormcenter.jpg" alt="stormcenter">
                 <p>Storm Center</p>
-            </div>
-        </section>
-
-        <section class="forecast">
-           
-        </section>
+                </a></div>
+            <div><a href="gallery.html"><img src="img/optimized-gallery.jpg" alt="gallery">
+                <p>Gallery</p>
+                </a></div>
+        </figure>
     </main>
-
     <footer w3-include-html="modules/footer.html">
     </footer>
     <script src="/cit230/assignments/lesson-10/scripts/w3.js"></script>
 <script src="/cit230/assignments/lesson-10/scripts/modularize.js"></script>
+<script src="scripts/hamburger.js"></script>
 </body>
-
 </html>
+<!--<meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="">-->
