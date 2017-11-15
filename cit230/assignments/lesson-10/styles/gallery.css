@@ -6,6 +6,6 @@
     margin-bottom: 20px;
 }
 
-div:hover {
+figure div:hover {
     box-shadow: 5px 5px 5px;
 }

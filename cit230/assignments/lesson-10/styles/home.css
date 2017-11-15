@@ -141,16 +141,6 @@ article p.town-article img {
     margin: 0 0 0 2%;
 }
 
-/* Home Page CSS */
-
-.top {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 50px;
-    margin-bottom: 20px;
-}
-
 footer {
     background-color: #00043c;
     color: #c0c0c0;
