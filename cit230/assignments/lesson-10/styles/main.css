@@ -27,6 +27,7 @@ footer {
 header {
     background-color: #00043c;
     max-width: 700px;
+    
 }
 
 header h1 {
@@ -44,7 +45,8 @@ header img {
 }
 
 header .subheading {
-    padding: 1rem;
+    margin-top: -11pt;
+    padding: .5rem;
     text-align: center;
     color: #c0c0c0;
 }
