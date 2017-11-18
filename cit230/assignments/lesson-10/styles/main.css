@@ -131,14 +131,14 @@ section {
 }
 
 .town-article {
-    display: flex;
-    flex-wrap: wrap-reverse;
-    flex-direction: column;
+}
+.town-article img {
+    width: 50%;
+    margin: 0 0 0 25%;
 }
 
-article p.town-article img {
-    width: 50%;
-    margin: 0 0 0 2%;
+.info {
+    font-family: 'Cinzel', serif;
 }
 
 footer {

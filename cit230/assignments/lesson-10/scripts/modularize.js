@@ -1,3 +1,6 @@
-w3.includeHTML();
-    
-myFunction();
+w3.includeHTML(function()
+{
+    myFunction();
+    wayfinding();
+});
+
