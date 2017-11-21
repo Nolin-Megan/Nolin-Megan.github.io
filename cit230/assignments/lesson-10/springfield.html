@@ -74,16 +74,15 @@
                 </tbody>
             </table>
         </section>
-        <div class="info">
-            <p>Town motto:<br>Where everyone is lifted.<br></p>
-            <p>Founded:<br> 1826</p>
-            <p>Current population:<br> 17,852</p>
-            <p>Average rainfall:<br> 17''</p>
-            <p>Events:<br>
-            January 8: Spring into Winter<br>
-            April 10-20: Celebration of Life<br>
-            July 31-Aug 15: Dog Days of Summer Festival</p>
+         <div class="info">
+           <p>Motto: <span id="motto"></span></p>
+           <p>Founded: <span id="yearFounded"></span></p>
+           <p>Population: <span id="currentPopulation"></span></p>
+           <p>Average Rainfall: <span id="averageRainfall"></span></p>
+           <p>Events:</p>
+               <ul id="events"></ul>
         </div>
+
     </main>
 
     <footer w3-include-html="modules/footer.html">
@@ -94,6 +93,7 @@
     <script src="scripts/w3.js"></script>
     <script src="scripts/modularize.js"></script>
     <script src="scripts/sp-windchill.js"></script>
+    <script src="scripts/json.js"></script>
 
 </body>
 
