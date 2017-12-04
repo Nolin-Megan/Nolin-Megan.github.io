@@ -10,7 +10,7 @@
 	margin:auto;
 }
 
-.outerOne {
+.outerone {
 	position:absolute;
 	height:300px;
 	width: 300px;
@@ -19,7 +19,7 @@
 	left: 36px;
 }
 
-.innerOne {
+.innerone {
 	position:absolute;
 	height:150px;
 	width: 150px;
@@ -28,7 +28,7 @@
 	left: 72px;
 }
 
-.outerTwo {
+.outertwo {
 	position:absolute;
 	height:300px;
 	width: 300px;
@@ -37,7 +37,7 @@
 	left: 384px;
 }
 
-.innerTwo {
+.innertwo {
 	position:absolute;
 	height:150px;
 	width: 150px;

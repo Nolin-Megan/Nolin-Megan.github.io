@@ -80,7 +80,7 @@ body {
 	height:669px;
 }
 
-.headImage {
+.headimage {
 	position:absolute;
 	top:20px;
 	left:20px;
@@ -90,7 +90,7 @@ body {
 	border-radius:5px;
 }
 
-.registerForm {
+.registerform {
 	position: absolute;
 	top: 20px;
 	left: 630px;
@@ -103,7 +103,7 @@ body {
 	border: 1px solid rgb(108, 200, 53);
 }
 
-.ReqAQuoteImg {
+.reqaquoteimg {
 	position:relative;
 	width:200px;
 	top:0px;
@@ -111,14 +111,14 @@ body {
 
 /* Form Styles */
 
-.FormFieldHolder {
+.formfieldholder {
 	position: relative;
 	padding: 12px;
 	/*border: 1px solid;*/
 	height: 29px;
 }
 
-.labelHolder {
+.labelholder {
 	position:relative;
 	float:left;
 	width:80px;
@@ -129,12 +129,12 @@ body {
 	font-size:14px;
 }
 
-.FieldHolder {
+.fieldholder {
 	position:relative;
 	float:left;
 }
 
-.FieldHolder input {
+.fieldholder input {
 	float:left;
 	width: 158px;
 	padding: 7px;
@@ -142,7 +142,7 @@ body {
 	font-size: 12px;
 }
 
-.FieldHolder button {
+.fieldholder button {
 	padding: 9px;
 	border-radius: 5px;
 	border: none;
@@ -152,7 +152,7 @@ body {
 	text-shadow: 0px 0px;
 }
 
-.contentBoxes {
+.contentboxes {
 	position:relative;
 	width:958px;
 	height:365px;
@@ -170,13 +170,13 @@ body {
 	border-top:4px solid rgba(0,0,0,0.2);
 }
 
-.contentBoxes h2 {
+.contentboxes h2 {
 	font-family: 'Raleway', sans-serif;
 	font-size:18px;
 	line-height: 25px;
 }
 
-.contentBoxes p {
+.contentboxes p {
 	font-family: 'Raleway', sans-serif;
 	text-align:justify;
 	font-weight:normal;
@@ -208,7 +208,7 @@ body {
 	border:1px solid;
 }
 
-.servicesBtn {
+.servicesbtn {
 	text-decoration: none;
 	color:#000;
 }

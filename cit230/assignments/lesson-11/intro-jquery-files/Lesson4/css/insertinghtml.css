@@ -21,7 +21,7 @@
 	padding:10px;
 }
 
-.buttonHolder {
+.buttonholder {
 	position: absolute;
 	/*border: 1px solid red;*/
 	width: 61px;
@@ -30,14 +30,14 @@
 	top: 240px;
 }
 
-button#LeftToRight {
+button#lefttoright {
 	position: absolute;
 	top: 23px;
 	left: 11px;
 	padding: 10px;
 }
 
-button#RightToLeft {
+button#righttoleft {
 	position: absolute;
 	top: 76px;
 	left: 11px;
