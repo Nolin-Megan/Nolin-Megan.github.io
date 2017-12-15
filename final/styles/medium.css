@@ -1,0 +1,42 @@
+@media only screen and (min-width: 37.5em) {
+    header img {
+        width: 100px;
+        height: 90px;
+        margin: 10px 0 0 10px;
+    }
+    
+    .subheading {
+        margin: 105px 0 0 -320px;
+    }
+    
+    nav button {
+        display: none;
+    }
+    .navigation li {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        text-align: center;
+        width: 100%;
+        background-color: #011d26;
+        margin: 5px 0;
+        padding: .7rem;
+    
+    }
+    .navigation li a {
+        text-align: center;
+        text-decoration: none;
+    }
+    .navigation li a:hover {
+        background-color: #ddd;
+    }
+    
+    .content {
+     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 100px;
+    margin-bottom: 20px;
+    }
+  
+}

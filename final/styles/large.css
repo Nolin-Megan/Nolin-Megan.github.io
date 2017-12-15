@@ -1,0 +1,35 @@
+@media only screen and (min-width: 64em) {
+    .subheading {
+        margin: 105px 0 0 -320px;
+    }
+    nav {
+        text-align: center;
+    }
+    .navigation li {
+        display: inline;
+        margin: 0 5px 0 50px;
+    }
+    .navigation li a {
+        text-align: center;
+        text-decoration: none;
+        margin: 0 5px 0 10px
+    }
+    .navigation li a:hover {
+        background-color: #29105a;
+    }
+    header img {
+        margin: 20px 0 0 50px;
+        float: left;
+    }
+    .content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 100px;
+        margin-bottom: 20px;
+    }
+    
+    .routes {
+        text-align: center
+    }
+}
